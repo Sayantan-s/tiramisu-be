@@ -1,3 +1,3 @@
-from . import auth, events, expenses, groups, invites, me, settlements
+from . import auth, dev, events, expenses, groups, invites, me, settlements
 
-__all__ = ["auth", "events", "expenses", "groups", "invites", "me", "settlements"]
+__all__ = ["auth", "dev", "events", "expenses", "groups", "invites", "me", "settlements"]

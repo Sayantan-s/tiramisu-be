@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug Tiramisu BE",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "fastapi",
+            "args": [
+                "dev",
+                "main.py"
+            ],
+            "python": "${workspaceFolder}/.venv/bin/python",
+            "jinja": true,
+            "console": "integratedTerminal"
+        }
+    ]
+}
